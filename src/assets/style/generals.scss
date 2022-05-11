@@ -1,7 +1,28 @@
 @import '~bootstrap/scss/bootstrap.scss';
+$fa-font-path: './webfonts';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
 @import './variables.scss';
 
-*{
-    
-};
+    * {
+        scrollbar-width: thin;
+        scrollbar-color: $main $back;
+      }
+      
+      /* Works on Chrome, Edge, and Safari */
+      *::-webkit-scrollbar {
+        width: 12px;
+      }
+      
+      *::-webkit-scrollbar-track {
+        background: $back;
+        border-radius: 20px;
+      }
+      
+      *::-webkit-scrollbar-thumb {
+        background-color: $main;
+        border-radius: 20px;
+        border: 3px solid $back;
+      }
+
     

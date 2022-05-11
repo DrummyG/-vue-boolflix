@@ -2,18 +2,18 @@ import Vue from 'vue';
 const state = Vue.observable({
     itemList : [],
     tvList: [],
-    tipo: '',
     completo: [],
+    loading: true,
     ricerca(val){
         this.itemList = []
         this.itemList = val
-        console.log(this.itemList)
     },
     compleition(val){
         this.tvList = []
         this.tvList = val
-        console.log(this.tvList)
+        this.completo = []
         this.completo = this.tvList.concat(this.itemList)
+        this.loading = false
         console.log(this.completo)
     }
 });

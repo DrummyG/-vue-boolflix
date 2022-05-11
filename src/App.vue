@@ -19,7 +19,11 @@ export default {
 </script>
 
 <style lang="scss">
+@import './assets/style/generals.scss';
 #app {
+  height: 100%;
+  min-width: 550px;
   font-family: Avenir, Helvetica, Arial, sans-serif;
+  background-color: $main;
 }
 </style>
