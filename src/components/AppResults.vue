@@ -73,6 +73,8 @@ h2{
   .col-6{
     overflow:hidden;
     position: relative;
+    display: flex;
+    justify-content: center;
     
     
     margin: 0;
@@ -96,9 +98,13 @@ h2{
       .same{
         display: none;
       }
+      .show{
+        display: block;
+      }
 
       img{
         width: 50px;
+        margin-top: 10px;
         position: relative;
         left: 80%;
         bottom: 0;
@@ -122,8 +128,9 @@ h2{
 }
 
 .poster{
-  width: 100%;
-  min-height: 420px;
+ max-width: 250px;
+
+  height: 350px;
   position: relative;
 }
 </style>
