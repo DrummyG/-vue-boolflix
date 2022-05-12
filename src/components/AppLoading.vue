@@ -14,10 +14,10 @@ export default {
     @import '../assets/style/variables.scss';
     div{
         position: absolute;
-        top: 0;
+        top: -30px;
         left: 0;
-        width: 100%;
         height: 100%;
+        width: 95vw;
         z-index: 100;
         background-color: $main;
     }
