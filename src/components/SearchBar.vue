@@ -77,6 +77,7 @@ export default {
 <style scoped lang="scss">
 @import '../assets/style/variables.scss';
 header {
+  padding-left: 20px;
   display: flex;
   align-items: center;
   gap: 30px;
