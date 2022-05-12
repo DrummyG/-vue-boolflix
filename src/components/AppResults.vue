@@ -95,7 +95,7 @@ h2{
         padding: 0;
       }
 
-      .same{
+      .hide{
         display: none;
       }
       .show{
