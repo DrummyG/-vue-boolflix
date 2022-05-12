@@ -1,7 +1,7 @@
 <template>
   <header>
     <h1>boolflix</h1>
-    <input type="text" v-model="searchName" />
+    <input type="text" v-model="searchName" @keyup.enter="itemFound"/>
     <button @click="itemFound">Cerca</button>
   </header>
 </template>

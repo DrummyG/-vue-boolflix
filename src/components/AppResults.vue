@@ -140,7 +140,7 @@ main {
   }
 
   .nothing{
-    height: 360px;
+    height: 366.67px;
 
     p{
       color: white;
