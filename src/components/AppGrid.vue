@@ -70,7 +70,6 @@ export default {
           this.listaStelle.push("grey");
         }
       }
-      console.log(this.listaStelle);
       return this.listaStelle;
     },
     nationFlag(item){
